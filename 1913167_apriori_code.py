@@ -84,7 +84,7 @@ candidate1_df
 
 """# Creating first Frequent Itemset (L1)"""
 
-#filtering items having minimum support count 2
+#filtering items having minimum support count 6
 def filter_sup(candidate):
     minimum_sup = 6
     filtering = candidate['sup'] > minimum_sup
